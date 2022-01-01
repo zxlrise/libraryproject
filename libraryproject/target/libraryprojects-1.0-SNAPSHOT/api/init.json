@@ -1,0 +1,57 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "welcome"
+  },
+  "logoInfo": {
+    "title": "图书馆管理",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "功能管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+          {
+              "title": "借阅管理",
+              "href": "lendListIndex",
+              "icon": "fa fa-window-maximize",
+              "target": "_self"
+            },
+        {
+          "title": "图书管理",
+          "href": "bookIndex",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        },
+        {
+          "title": "读者管理",
+          "href": "readerIndex",
+          "icon": "fa fa-file-text",
+          "target": "_self"
+        },
+        {
+            "title": "类型管理",
+            "href": "typeIndex",
+            "icon": "fa fa-window-maximize",
+            "target": "_self"
+          },
+          {
+              "title": "公告管理",
+              "href": "noticeIndex",
+              "icon": "fa fa-window-maximize",
+              "target": "_self"
+            },
+        {
+          "title": "管理员管理",
+          "href": "adminIndex",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
